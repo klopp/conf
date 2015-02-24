@@ -1,0 +1,79 @@
+<style-scheme id="perl_mc" _name="Perl MC" version="1.0">
+<author>Klopp</author>
+<_description>Perl like Midnight Commander</_description>
+
+  <color name="red"                         value="#FF0000"/>
+  <color name="blue"                        value="#0000FF"/>
+  <color name="dark-blue"                   value="#000080"/>
+  <color name="dark-red"                    value="#800000"/>
+  <color name="dark-green"                  value="#008000"/>
+  <color name="grey"                        value="#808080"/>
+  <color name="yellow"                      value="#FFFF00"/>
+  <color name="white"                       value="#FFFFFF"/>
+
+<!--
+  <style name="text"                    foreground="#AAAAAA" background="#0000AA"/>
+-->
+  <style name="text"                    foreground="#999999" background="#0000AA"/>
+
+  <style name="selection"               background="#444444"/>
+  <style name="cursor"                  foreground="#FFFFFF"/>
+  <style name="current-line"            background="#0000BB"/>
+  <style name="bracket-match"           foreground="#FF0000" bold="true"/>
+  <style name="bracket-mismatch"        foreground="#FFFF00" background="#FF3300" bold="true"/>
+  <style name="right-margin"            background="#333399"/>
+
+  <!-- Comments -->
+  <style name="def:comment"             foreground="#666666"/>
+  <style name="def:shebang"             foreground="#FFFFFF" background="#000000"/>
+  <style name="def:doc-comment"             use-style="def:comment"/>
+  <style name="def:doc-comment-element"     use-style="def:comment"/>
+
+<!--
+  <style name="def:note"                background="#444444" foreground="yellow" />
+-->
+  <style name="def:note"                foreground="yellow" bold="true" />
+
+
+  <!-- Types -->
+  <style name="def:type"                    foreground="#FFFFFF"/>
+
+  <style name="def:operator"                foreground="#FFFF00"/>
+
+  <style name="decimal"                     foreground="#FF0000"/>
+  <style name="def:decimal"                 foreground="#FF0000"/>
+  <style name="def:base-n-integer"          use-style="def:decimal"/>
+  <style name="def:floating-point"          use-style="def:decimal"/>
+  <style name="def:complex"                 use-style="def:decimal"/>
+
+  <style name="def:statement"               foreground="#00FF00"/>
+  <style name="def:constant"                use-style="def:statement"/>
+  <style name="def:character"               use-style="def:statement"/>
+  <style name="def:special-char"            use-style="def:statement"/>
+
+
+  <style name="def:builtin" foreground="#FFFF00"/>
+  <style name="def:keyword" foreground="#FFFF00"/>
+  <style name="def:operator" foreground="#FFFFFF"/>
+  <style name="def:string" foreground="#00AA00"/>
+  <style name="def:variable" foreground="#00FF00"/>
+  <style name="def:identifier" foreground="#00FF00"/>
+  <style name="def:preprocessor" foreground="#AA00AA"/>
+
+
+  <style name="perl:identifier"       foreground="#FF0000"/>
+  <style name="perl:function"         use-style="perl:identifier"/>
+
+  <style name="perl:regex" foreground="#FF6600"/>
+  <style name="perl:system-command" foreground="#FFFFFF" background="#000000"/>
+
+  <style name="perl:variable"         foreground="#FFFFFF"/>
+
+  <style name="perl:special-constant"  foreground="#66FFFF"/>
+
+  <style name="perl:pod" use-style="def:comment"/>
+  <style name="perl:pod-keyword" use-style="def:comment"/>
+  <style name="perl:pod-heading" use-style="def:comment"/>
+  <style name="perl:pod-escape" use-style="def:comment"/>
+
+</style-scheme>
