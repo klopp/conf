@@ -1,0 +1,14 @@
+[RegularExpressions::RequireExtendedFormatting]
+minimum_regex_length_to_complain_about = 16
+
+[CodeLayout::RequireTidyCode]
+perltidyrc = ~/.perltidyrc
+
+[InputOutput::RequireCheckedSyscalls]
+exclude_functions = print say close
+
+[ControlStructures::ProhibitPostfixControls]
+allow = for if unless when
+
+[BuiltinFunctions::ProhibitStringyEval]
+allow_includes = 1
