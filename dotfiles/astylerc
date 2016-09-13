@@ -1,1 +1,59 @@
-../../../.astylerc
+# Java-based
+#-A2 
+# Stroustrup-based
+#-A4
+# K&R-based
+-A3
+
+# convert tabs to spaces
+-c
+
+# indent by tabs (4 spaces)
+#-t4
+
+# 1 tab = 4 spaces 
+-s4 
+
+# max line length
+-xC80 
+
+# break lines after operators
+-xL
+
+# align pointer to name
+-k3 
+
+# align reference to name
+-W3 
+
+# add brackets to single line blocks
+-j 
+
+# indent classes, switches, namespaces, comments
+-C 
+-S 
+-N 
+-Y 
+
+# insert spaces around operators
+-p 
+
+# remove extra spaces 
+-U 
+
+# delete empty lines
+-xe 
+
+# break closing brackets
+-y 
+
+# insert space padding around parenthesis on the inside only
+-D 
+
+# break blocks
+-f
+
+# Indent multi-line preprocessor definitions ending with a backslash
+-w
+
+
