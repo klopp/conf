@@ -1,5 +1,5 @@
 # -nsak="if elsif unless for while" -pt=0 -i=4 -bl -vt=2 -vtc=2 -boc -st
--pbp -l=80 
+-pbp -l=80 -sbl -bbb
 #-t -dt=4
 
 
